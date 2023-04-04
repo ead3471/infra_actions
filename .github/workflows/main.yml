@@ -33,6 +33,6 @@ jobs:
       run: |
         # запуск проверки проекта по flake8
         python -m flake8
-     - name: Django tests
+    - name: Django tests
       run: |
         python manage.py test
