@@ -19,8 +19,6 @@ jobs:
       with:
         # Выбор версии Python
         python-version: 3.7
-      
-      set
 
     - name: Install dependencies
       run: | 
